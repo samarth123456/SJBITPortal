@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SJBIT Portal</string>
+
+    <string name="title_section0">SJBIT Home</string>
+    <string name="title_section1">Login to SIMS</string>
+    <string name="title_section2">Facing Problem?</string>
+    <string name="title_section3">Exam Results</string>
+    <string name="title_section4">Report Bugs</string>
+    <string name="title_section5">Contact Us</string>
+    <string name="notification_section">Notifications</string>
+
+
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Registering on SJBIT Server...Please Wait</string>
+    <string name="token_error_message">An error occurred while registering on server. Please check if your
+        internet connection is working and try running the application again.</string>
+    <string name="default_text">Selected Branch :-</string>
+    <string name="choose_topics">Choose Your Branch</string>
+
+    <string name="email">E-mail ID</string>
+    <string name="error_code">Error Code</string>
+    <string name="description">Description</string>
+    <string name="submit">Submit</string>
+    <string name="name">Name</string>
+
+    <string name="person_prompt">Whom Do You Want To Contact ?</string>
+    <string-array name="person_arrays">
+        <item>Information Science</item>
+        <item>Computer Science</item>
+        <item>Electrical and Electronics</item>
+        <item>Electronics and Communication</item>
+        <item>Civil</item>
+        <item>Mechanical</item>
+    </string-array>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="about_us">About Us</string>
+    <string name="home_button">Home</string>
+    <string name="notifcations">Notifications</string>
+</resources>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/abt_us" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="CROSSTALK INNOVATION INC."
+        android:id="@+id/textView26"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="PSSR CrossTalk Software Solutions Pvt. Ltd."
+        android:id="@+id/textView27"
+        android:layout_below="@+id/textView26"
+        android:layout_centerHorizontal="true"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Workstation: #720, BHEL Layout, Pattanagere Village,"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Rajarajeshwari Nagar, Bengaluru 560098, India"
+        android:id="@+id/textView29"
+        android:layout_below="@+id/textView28"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Email: icrosstalk@gmail.com"
+        android:id="@+id/textView30"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:text="Website: http://icrosstalk.webs.com"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:text="GitHub: http://www.github.com/icrosstalk"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:text="Facebook: http://on.fb.me/1P9QVje"
+        android:id="@+id/textView33"
+        android:layout_below="@+id/textView32"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="References: Karthik R Sharma"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:textStyle="italic"
+        android:textSize="13dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="developer.android.com"
+        android:id="@+id/textView35"
+        android:layout_below="@+id/textView34"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:text="stackoverflow.com"
+        android:id="@+id/textView43"
+        android:layout_below="@+id/textView35"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Built on Android Studio v1.3.2"
+        android:id="@+id/textView44"
+        android:layout_below="@+id/textView43"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textStyle="bold"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Target SDK: API 23, Android 6.0 (Marshmallow)"
+        android:id="@+id/textView45"
+        android:layout_below="@+id/textView44"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="9dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Min. SDK: API 16, Android 4.1 (Jelly Bean)"
+        android:id="@+id/textView46"
+        android:layout_below="@+id/textView45"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textSize="9dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Based on Google&apos;s Material Design Guidelines"
+        android:id="@+id/textView47"
+        android:layout_below="@+id/textView46"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Developers: Pavan Guptha, Samarth B, Samarth Shenoy &amp; Rishav Verma"
+        android:id="@+id/textView48"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:linksClickable="true"
+        android:autoLink="web"
+        android:text="Blog: icrosstalk.webs.com/apps/blog"
+        android:id="@+id/textView49"
+        android:layout_below="@+id/textView33"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="true"
+        android:textSize="13dp" />
+</RelativeLayout>
